@@ -31,7 +31,7 @@ public class MyDialog extends Activity {
 
 		edt = (EditText) findViewById(R.id.dialog_edt);
 		btn = (Button) findViewById(R.id.dialog_btn);
-		top = (View)findViewById(R.id.dialog_top);
+		top = findViewById(R.id.dialog_top);
 				
 		myDialog = MyDialog.this;
 		
